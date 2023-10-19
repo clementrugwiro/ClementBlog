@@ -1,0 +1,58 @@
+#contact{ 
+    font-family: 'Tilt Neon', sans-serif;
+}
+.ContactMe{
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactMe h2{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+}
+.contactDec{
+    margin-bottom: 2rem;
+}
+input{
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    padding: 0.7rem;
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: rgb(46, 44, 44);
+    width: 45%;
+}
+.Conbtn{
+    cursor: pointer;
+    margin: 1rem 0;
+    width: 12rem;
+    background: white;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: 700;
+}
+.Conbtn:hover{
+    background: rgb(3, 158, 3);
+}
+.inputName{
+    margin-top: 1rem;
+}
+
+textarea{
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    padding: 0.7rem;
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: rgb(46, 44, 44);
+    width: 45%;
+}
