@@ -3,6 +3,8 @@ import Landing from "./components/landing/landing";
 import About from "./components/about/about"
 import Contact from "./components/contact/contact";
 import Project from "./components/projects/project";
+import Socialmedia from "./components/socialmedia/socialmedia";
+import Footer from"./components/footer/footer"
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About/>
       <Project/>
       <Contact/>
+      <Socialmedia/>
+      <Footer/>
 
     </div>
   );

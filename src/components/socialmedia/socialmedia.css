@@ -1,0 +1,26 @@
+#socialMedia{
+    margin :0,
+}
+
+.links{
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+.link{
+    border-radius: 1rem;
+    width:2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px) {
+    .links{
+        width: 60%;
+    }
+}
+

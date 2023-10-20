@@ -53,3 +53,9 @@ border-bottom: 1px solid rgb(3, 158, 3);
     height: 2rem;
     width: 2rem;
 }
+
+.active{
+    color: rgb(3, 158, 3);
+    border-bottom: 1px solid rgb(3, 158, 3);
+    padding-bottom: 0.4rem;
+}
