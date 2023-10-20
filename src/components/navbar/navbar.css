@@ -59,3 +59,47 @@ border-bottom: 1px solid rgb(3, 158, 3);
     border-bottom: 1px solid rgb(3, 158, 3);
     padding-bottom: 0.4rem;
 }
+
+
+
+.navmenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(40, 40, 40);
+    opacity: 1;
+}
+.mobMenu{
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+}
+
+.ListItem{
+    font-family: 'Tilt Neon', sans-serif;
+    cursor: pointer;
+    padding: 0.5rem 3rem;
+    margin: 0.35rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    border-bottom: solid 2px;
+    background: rgb(19, 19, 19);
+}
+
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopmenu{
+        display: none
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+}

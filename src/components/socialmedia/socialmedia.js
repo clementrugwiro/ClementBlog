@@ -9,10 +9,10 @@ const Socialmedia = () => {
   return (
    <section id='socialMedia'>
         <div className='links'>
-            <img src={instagram} alt='' className='link'/>
-            <img src={twitter} alt='' className='link'/>
-            <img src={Linkedin} alt='' className='link'/>
-            <img src={github} alt='' className='link'/>
+            <a href="https://www.instagram.com/clementrugwirohunk"> <img src={instagram} alt='' className='link'/> </a>
+            <a href="https://twitter.com/hunk_clement"> <img src={twitter} alt='' className='link'/> </a>
+            <a href="https://www.linkedin.com/in/clement-rugwiro-48b5a1202/"> <img src={Linkedin} alt='' className='link'/> </a>
+            <a href="https://github.com/clementrugwiro"> <img src={github} alt='' className='link'/> </a>
         </div>
    </section>
   )
