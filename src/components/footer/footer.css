@@ -22,8 +22,9 @@
         font-size: 0.6rem;
     } 
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 394px) {
     .footer{
         font-size: 0.5rem;
     } 
+
 }
