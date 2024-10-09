@@ -1,6 +1,6 @@
 import React from 'react'
 import './landing.css'
-import bgImg from '../../assets/mypicture.png'
+import bgImg from '../../assets/backImage.png'
 import {Link} from 'react-scroll'
 import hireme from '../../assets/hire.png'
 

@@ -1,3 +1,4 @@
+import "./app.css"
 import Navbar from "./components/navbar/navbar";
 import Landing from "./components/landing/landing";
 import About from "./components/about/about"
@@ -9,14 +10,14 @@ import Footer from"./components/footer/footer"
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Landing/>
-      <About/>
-      <Project/>
-      <Contact/>
-      <Socialmedia/>
-      <Footer/>
-
+      <div className="background"></div>
+      <Navbar />
+      <Landing />
+      <About />
+      <Project />
+      <Contact />
+      <Socialmedia />
+      <Footer />
     </div>
   );
 }

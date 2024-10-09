@@ -1,0 +1,24 @@
+/* App.css */
+.App {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scroll if needed */
+}
+
+/* Adding the background to the body so it covers the whole page */
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 20%; /* Move it to the right */
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keep it behind other elements */
+  background-image: url('./assets/backSvg.svg');
+  background-position: center; /* Keep it centered */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.7; /* Reduce opacity */
+  transform: rotate(0deg); /* Rotate the image 30 degrees */
+}
