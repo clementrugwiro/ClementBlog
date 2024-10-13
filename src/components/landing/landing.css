@@ -39,6 +39,7 @@
 
 .introName {
   color: rgb(105, 117, 101);
+  text-shadow: 0 0 1px white ;
 }
 .btn {
   margin: 1rem 0;
@@ -80,9 +81,10 @@
 
 @media screen and (max-width: 480px) {
   .bg {
-    right: -35vw;
+    right: -85vw;
   }
   .IntroContent {
+    margin-top: 90px;
     font-size: 10vw;
   }
 }
