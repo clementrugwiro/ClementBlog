@@ -1,11 +1,10 @@
-/* App.css */
+App.css
 .App {
   position: relative;
   min-height: 100vh;
   overflow-x: hidden; /* Prevent horizontal scroll if needed */
 }
 
-/* Adding the background to the body so it covers the whole page */
 
 .background {
   position: fixed;

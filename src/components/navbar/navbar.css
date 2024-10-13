@@ -28,9 +28,9 @@
 }
 
 .desktopMenuListItem:hover {
-  color: rgb(190, 215, 84);
+  color: rgb(105, 117, 101);
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid rgb(190, 215, 84);
+  border-bottom: 1px solid rgb(105, 117, 101);
 }
 
 .desktopMenuBtn {
@@ -45,7 +45,7 @@
   border-radius: 2rem;
 }
 .desktopMenuBtn:hover {
-  background: rgb(190, 215, 84);
+  background: rgb(105, 117, 101);
 }
 
 .desktopMenuImg {
@@ -54,8 +54,8 @@
 }
 
 .active {
-  color: rgb(190, 215, 84);
-  border-bottom: 1px solid rgb(190, 215, 84);
+  color: rgb(105, 117, 101);
+  border-bottom: 1px solid rgb(105, 117, 101);
   padding-bottom: 0.4rem;
 }
 

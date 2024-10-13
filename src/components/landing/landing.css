@@ -38,7 +38,7 @@
 }
 
 .introName {
-  color: rgb(190, 215, 84);
+  color: rgb(105, 117, 101);
 }
 .btn {
   margin: 1rem 0;
@@ -52,7 +52,7 @@
   font-weight: 700;
 }
 .btn:hover {
-  background-color: rgb(190, 215, 84);
+  background-color: rgb(105, 117, 101);
 }
 
 .introPara {

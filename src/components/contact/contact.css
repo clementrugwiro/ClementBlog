@@ -29,9 +29,10 @@ input {
   width: 45%;
 }
 
-textarea:focus, input:focus{
-    background-color: rgb(190, 215, 84);
-    color: black;
+textarea:focus,
+input:focus {
+  background-color: rgb(105, 117, 101);
+  color: black;
 }
 .Conbtn {
   cursor: pointer;
@@ -47,7 +48,7 @@ textarea:focus, input:focus{
   font-weight: 700;
 }
 .Conbtn:hover {
-  background: rgb(190, 215, 84);
+  background: rgb(105, 117, 101);
 }
 .inputName {
   margin-top: 1rem;

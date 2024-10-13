@@ -33,12 +33,11 @@
 }
 
 .skillBar {
-  
   display: flex;
   margin: 1rem;
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
-  background: rgb(190, 215, 84);
+  background: rgb(105, 117, 101);
 }
 .skillbarImg {
   height: 5rem;
@@ -47,11 +46,11 @@
   margin-top: 1rem;
 }
 
-.skillBarText h2{
-    color: black;
+.skillBarText h2 {
+  color: black;
 }
-.skillBarText p{
-    color: black;
+.skillBarText p {
+  color: black;
 }
 
 p {

@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/navbar";
 import Landing from "./components/landing/landing";
 import About from "./components/about/about"
 import Contact from "./components/contact/contact";
+import Skills from './components/skills/skills'
 import Project from "./components/projects/project";
 import Socialmedia from "./components/socialmedia/socialmedia";
 import Footer from"./components/footer/footer"
@@ -15,6 +16,7 @@ function App() {
       <Landing />
       <About />
       <Project />
+      <Skills />
       <Contact />
       <Socialmedia />
       <Footer />
