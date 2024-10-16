@@ -19,7 +19,13 @@ const Project = () => {
        </span>
 
        <div className="projectBar">
-         <img src={Hamwe} alt="" className="projectImg" />
+         <a
+           href="https://hamwe.rw"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <img src={Hamwe} alt="" className="projectImg" />
+         </a>
          <div className="projecttext">
            <h2>Hamwe.rw</h2>
            <p>
@@ -31,7 +37,13 @@ const Project = () => {
        </div>
 
        <div className="projectBar">
-         <img src={CyberRwandaImage} alt="" className="projectImg" />
+         <a
+           href="https://cyberrwanda.com/"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <img src={CyberRwandaImage} alt="" className="projectImg" />
+         </a>
          <div className="projecttext">
            <h2>CyberRwanda</h2>
            <p>
@@ -44,7 +56,13 @@ const Project = () => {
        </div>
 
        <div className="projectBar">
-         <img src={RMHPImage} alt="" className="projectImg" />
+         <a
+           href="https://rmhp.netlify.app/"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <img src={RMHPImage} alt="" className="projectImg" />
+         </a>
          <div className="projecttext">
            <h2>RMHP</h2>
            <p>
@@ -56,7 +74,15 @@ const Project = () => {
        </div>
 
        <div className="projectBar">
-         <img src={PortfolioImage} alt="" className="projectImg" />
+         <a
+           href="https://clementrugwiro.netlify.app/"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           {" "}
+           <img src={PortfolioImage} alt="" className="projectImg" />
+         </a>
+
          <div className="projecttext">
            <h2>My Portfolio</h2>
            <p>
@@ -68,7 +94,14 @@ const Project = () => {
        </div>
 
        <div className="projectBar">
-         <img src={twistads} alt="" className="projectImg" />
+         <a
+           href="https://github.com/clementrugwiro/hades-motors"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <img src={twistads} alt="" className="projectImg" />
+         </a>
+
          <div className="projecttext">
            <h2>Twist Ads</h2>
            <p>
@@ -81,7 +114,13 @@ const Project = () => {
        </div>
 
        <div className="projectBar">
-         <img src={GreenAfrica} alt="" className="projectImg" />
+         <a
+           href="https://github.com/clementrugwiro/Green-Africa-Inititative"
+           target="_blank"
+           rel="noopener noreferrer"
+         >
+           <img src={GreenAfrica} alt="" className="projectImg" />
+         </a>
          <div className="projecttext">
            <h2>Green Africa Initiative</h2>
            <p>

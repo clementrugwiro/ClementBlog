@@ -6,6 +6,7 @@ import Contact from "./components/contact/contact";
 import Skills from './components/skills/skills'
 import Project from "./components/projects/project";
 import Socialmedia from "./components/socialmedia/socialmedia";
+import Services from "./components/services/services";
 import Footer from"./components/footer/footer"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Landing />
       <About />
       <Project />
+      <Services/>
       <Skills />
       <Contact />
       <Socialmedia />

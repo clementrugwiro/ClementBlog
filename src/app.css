@@ -2,7 +2,7 @@ App.css
 .App {
   position: relative;
   min-height: 100vh;
-  overflow-x: hidden; /* Prevent horizontal scroll if needed */
+  overflow: hidden; /* Prevent horizontal scroll if needed */
 }
 
 

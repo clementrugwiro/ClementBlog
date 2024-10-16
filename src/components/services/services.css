@@ -1,0 +1,32 @@
+.services-section {
+    /* Matching your page's dark theme */
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Tilt Neon", sans-serif;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    background: rgb(105, 117, 101);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service h3 {
+    color: black;
+}
+
+.service p {
+    color: black;
+}

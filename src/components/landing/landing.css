@@ -24,7 +24,7 @@
   height: 100vh;
   width: 100vw;
   padding: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   display: flex;
   flex-direction: column;
@@ -43,21 +43,24 @@
 }
 .btn {
   margin: 1rem 0;
-  background: white;
+  background-color: #ffffff;
   color: black;
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;
-  border: none;
+  border: 2px solid #000;
+  transition: background-color 0.3s, color 0.3s;
   font-size: 1rem;
   font-family: "Tilt Neon", sans-serif;
   font-weight: 700;
 }
 .btn:hover {
+  padding: 0.76rem 1.6rem;
   background-color: rgb(105, 117, 101);
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
 }
 
 .introPara {
-  font-size: medium;
+  font-size: 1rem;
   font-weight: 100;
 }
 
