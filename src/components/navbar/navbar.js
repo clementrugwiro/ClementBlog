@@ -50,6 +50,18 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
+          to="services-section"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          className="desktopMenuListItem"
+          onClick={() => setShowMenu(false)}
+        >
+          Services{" "}
+        </Link>
+        <Link
+          activeClass="active"
           to="tech-skills"
           spy={true}
           smooth={true}
@@ -127,6 +139,18 @@ const Navbar = () => {
           onClick={() => setShowMenu(false)}
         >
           Projects{" "}
+        </Link>
+        <Link
+          activeClass="active"
+          to="services-section"
+          spy={true}
+          smooth={true}
+          offset={-60}
+          duration={500}
+          className="ListItem"
+          onClick={() => setShowMenu(false)}
+        >
+          Services{" "}
         </Link>
         <Link
           activeClass="active"
